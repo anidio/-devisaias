@@ -1,5 +1,3 @@
-import React from 'react';
-// Importamos os ícones de redes sociais e os novos ícones para o tema ☀️ 🌙
 import { FaInstagram, FaTiktok, FaYoutube, FaLinkedin, FaGithub, FaSun, FaMoon } from 'react-icons/fa';
 
 // 🟦 Definimos a interface para o TypeScript validar as propriedades recebidas

@@ -80,7 +80,7 @@ export default function Workspace() {
   };
 
   return (
-    <section className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-12 md:flex-row md:px-8 md:py-24">
+    <section id="workspace" className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-12 px-4 py-12 md:flex-row md:px-8 md:py-24">
       
       {/* 📋 LADO ESQUERDO */}
       <div className="flex flex-col items-center text-center md:items-start md:text-left max-w-xl">

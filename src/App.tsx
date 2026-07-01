@@ -3,6 +3,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Workspace from './components/Workspace';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import ScrollSpy from './components/ScrollSpy';
 
 export default function App() {
   // O estado começa como false (Modo Claro) por padrão ☀️
@@ -19,13 +22,15 @@ export default function App() {
         
         {/* Passamos o estado e a função para a Navbar conseguir alternar o modo */}
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+        <ScrollSpy />
         
         <div className="pt-6">
           <Workspace/>
           <Hero />
           <Projects/>
+          <Skills/>
         </div>
-        
+        <Contact/>
       </div>
     </div>
   );

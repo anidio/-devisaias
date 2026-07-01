@@ -25,7 +25,7 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
         {/* 2. Centro: Links de Navegação Centralizados */}
         <div className="hidden space-x-8 md:flex">
           {/* Adicionamos classes dark:text e dark:hover:text em cada link */}
-          <a href="#sobre" className="text-sm font-light text-slate-600 transition-colors duration-300 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100">
+          <a href="#about-hero" className="text-sm font-light text-slate-600 transition-colors duration-300 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100">
             Sobre
           </a>
           <a href="#projetos" className="text-sm font-light text-slate-600 transition-colors duration-300 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100">

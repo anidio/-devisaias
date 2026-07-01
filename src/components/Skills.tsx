@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion';
-
 // Estrutura das suas competências reais baseadas no seu perfil
 const skillsData = [
   {

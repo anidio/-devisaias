@@ -1,4 +1,5 @@
 import { FaInstagram, FaTiktok, FaYoutube, FaLinkedin, FaGithub, FaSun, FaMoon } from 'react-icons/fa';
+import logoImg from '../assets/dev2.png';
 
 // 🟦 Definimos a interface para o TypeScript validar as propriedades recebidas
 interface NavbarProps {
@@ -15,9 +16,14 @@ export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
         {/* 1. Esquerda: Espaço para Logo / Futura Imagem */}
         <div className="flex items-center space-x-3">
           {/* Adicionamos dark:text-slate-200 para clarear o texto no modo escuro */}
-          <span className="text-xl font-medium tracking-wider text-slate-800 dark:text-slate-200">
-            @devisaias
-          </span>
+          <div className="flex items-center">
+          {/* Substitua o texto antigo por este bloco de imagem */}
+            <img 
+              src={logoImg} 
+              alt="DevIsaias Logo" 
+              className="h-14 w-auto object-contain" 
+            />
+          </div>
         </div>
 
         {/* 2. Centro: Links de Navegação Centralizados */}

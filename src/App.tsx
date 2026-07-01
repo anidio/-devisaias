@@ -9,7 +9,7 @@ import ScrollSpy from './components/ScrollSpy';
 
 export default function App() {
   // O estado começa como false (Modo Claro) por padrão ☀️
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     // Se darkMode for true, adicionamos a classe "dark" no container pai 🌐

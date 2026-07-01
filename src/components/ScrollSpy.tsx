@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 // Mapeamento das seções com os IDs exatos do seu projeto
 const sections = [

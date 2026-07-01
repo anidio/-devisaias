@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 const codeString = `// Welcome to my workspace
 import { Developer } from './Olinda-pernambuco';
